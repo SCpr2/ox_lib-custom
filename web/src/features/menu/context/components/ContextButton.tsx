@@ -102,6 +102,7 @@ const ContextButton: React.FC<{
             }
             variant="default"
             disabled={button.disabled}
+            radius='md'
           >
             <Group position="apart" w="100%" noWrap>
               <Stack className={classes.buttonStack}>
